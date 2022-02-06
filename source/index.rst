@@ -10,6 +10,8 @@ Welcome to castlefight-doc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   abilities/index
+
 
 
 Indices and tables
