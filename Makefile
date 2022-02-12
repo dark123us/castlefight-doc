@@ -21,5 +21,5 @@ help:
 	@rm -rf $(DOCSDIR)
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@mv $(BUILDDIR)/html $(DOCSDIR)
-	@touch $(DOCSDIR)/.nojekill
+	@touch $(DOCSDIR)/.nojekyll
 	@rm -rf $(BUILDDIR)
