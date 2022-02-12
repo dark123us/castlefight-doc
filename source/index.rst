@@ -10,6 +10,13 @@ Welcome to castlefight-doc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   abilities/index
+
+build version
+-------------
+
+https://castlefight-doc.readthedocs.io/en/latest/index.html
+
 
 
 Indices and tables
