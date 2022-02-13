@@ -1,7 +1,7 @@
 # castlefight-doc
 Documentation for castlefight dota2 custom
 
-## builded version
+## compiled version
 
 https://castlefight-doc.readthedocs.io/en/latest/index.html
 https://dark123us.github.io/castlefight-doc/index.html

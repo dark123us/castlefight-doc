@@ -12,10 +12,11 @@ Welcome to castlefight-doc's documentation!
 
    abilities/index
 
-build version
--------------
+compiled version
+----------------
 
 https://castlefight-doc.readthedocs.io/en/latest/index.html
+
 https://dark123us.github.io/castlefight-doc/index.html
 
 
