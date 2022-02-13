@@ -16,7 +16,7 @@ build version
 -------------
 
 https://castlefight-doc.readthedocs.io/en/latest/index.html
-
+https://dark123us.github.io/castlefight-doc/index.html
 
 
 Indices and tables
