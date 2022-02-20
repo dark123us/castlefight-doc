@@ -11,6 +11,7 @@ Welcome to castlefight-doc's documentation!
    :caption: Contents:
 
    abilities/index
+   develop
 
 compiled version
 ----------------
