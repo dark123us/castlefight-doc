@@ -12,6 +12,7 @@ Welcome to castlefight-doc's documentation!
 
    abilities/index
    develop
+   deploy
 
 compiled version
 ----------------

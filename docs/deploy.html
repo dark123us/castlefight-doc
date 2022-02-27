@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Развертывание &#8212; castlefight-doc 1.0.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Разработка" href="develop.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Развертывание<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>Запуск окружения<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="git">
+<h3>git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h3>
+<p>git bash</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> /d/project/castlefight
+<span class="gp">$</span> <span class="nb">cd</span> /d/project/castlefight/develop/submodules/ecs-dota
+<span class="gp">$</span> <span class="nb">cd</span> /d/project/castlefight/develop/submodules/debug-dota
+<span class="gp">$</span> <span class="nb">cd</span> /d/project/castlefight/develop/submodules/castlefight-doc
+</pre></div>
+</div>
+</div>
+<div class="section" id="dota-custom-tools">
+<h3>dota custom + tools<a class="headerlink" href="#dota-custom-tools" title="Permalink to this headline">¶</a></h3>
+<p>командная строка</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;</span>d:
+<span class="gp">&gt;</span><span class="nb">cd</span> project<span class="se">\c</span>astlefight<span class="se">\d</span>eploy
+<span class="gp">&gt;</span>run-tools.bat
+</pre></div>
+</div>
+<p>запуск кастомки, подсказка в выводе run-tools.bat</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">dota_launch_custom_game castlefight castle_story_1 jointeam good</span>
+</pre></div>
+</div>
+<p>устранение проблем с запуском sh файлов</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> vim run-doc.sh +<span class="s2">&quot;set ff=unix&quot;</span> +wq
+</pre></div>
+</div>
+</div>
+<div class="section" id="ide">
+<h3>ide<a class="headerlink" href="#ide" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> ~/projects/castlefight/deploy/
+<span class="gp">$</span> bash run-ide.sh
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> docker <span class="nb">exec</span> -it vim_ide-v1 bash
+</pre></div>
+</div>
+</div>
+<div class="section" id="doc">
+<h3>doc<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h3>
+<p>сборка документации</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> ~/projects/castlefight/deploy/
+<span class="gp">$</span> bash run-doc.sh
+
+<span class="gp">#</span> <span class="nb">cd</span> /docs
+<span class="gp">#</span> <span class="k">while</span> true<span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="k">$(</span>date<span class="k">)</span><span class="p">;</span> inotifywait -e modify -r ./source <span class="p">;</span> sleep <span class="m">1</span><span class="p">;</span> make html<span class="p">;</span> <span class="k">done</span>
+</pre></div>
+</div>
+<p>Просмотр собранной документации</p>
+<p><a class="reference external" href="file:///D:/tmp/html/html/index.html">file:///D:/tmp/html/html/index.html</a></p>
+<p><a class="reference external" href="https://dark123us.github.io/castlefight-doc/index.html">https://dark123us.github.io/castlefight-doc/index.html</a></p>
+<p><a class="reference external" href="https://caslefight-doc.readthedocs.io/en/latest/index.htmlt">https://caslefight-doc.readthedocs.io/en/latest/index.htmlt</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">castlefight-doc</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="abilities/index.html">Abilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="develop.html">Разработка</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Развертывание</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Запуск окружения</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="develop.html" title="previous chapter">Разработка</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, dark123us.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/deploy.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
