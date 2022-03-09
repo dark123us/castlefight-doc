@@ -43,12 +43,14 @@ dota custom + tools
 ide
 +++
 
+Запуск
+
 .. code:: console
 
     $ cd ~/projects/castlefight/deploy/
     $ bash run-ide.sh
 
-
+Подключиться к запущенному сеансу
 
 .. code:: console
 
@@ -56,6 +58,13 @@ ide
 
 doc
 +++
+
+Путь к докам для редактирования
+
+.. code:: console
+
+   # su dark123us
+   $ cd /home/dark123us/app/develop/submodules/castlefight-doc/source
 
 сборка документации
 

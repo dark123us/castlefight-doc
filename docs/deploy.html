@@ -61,16 +61,23 @@
 </div>
 <div class="section" id="ide">
 <h3>ide<a class="headerlink" href="#ide" title="Permalink to this headline">¶</a></h3>
+<p>Запуск</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> ~/projects/castlefight/deploy/
 <span class="gp">$</span> bash run-ide.sh
 </pre></div>
 </div>
+<p>Подключиться к запущенному сеансу</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> docker <span class="nb">exec</span> -it vim_ide-v1 bash
 </pre></div>
 </div>
 </div>
 <div class="section" id="doc">
 <h3>doc<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h3>
+<p>Путь к докам для редактирования</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> su dark123us
+<span class="gp">$</span> <span class="nb">cd</span> /home/dark123us/app/develop/submodules/castlefight-doc/source
+</pre></div>
+</div>
 <p>сборка документации</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> ~/projects/castlefight/deploy/
 <span class="gp">$</span> bash run-doc.sh
