@@ -16,6 +16,13 @@ git bash
     $ cd /d/project/castlefight/develop/submodules/debug-dota
     $ cd /d/project/castlefight/develop/submodules/castlefight-doc
 
+устранение warning: LF will be replaced by CRLF in path/to/the/file.
+
+.. code:: console
+
+    git config --global core.autocrlf false
+
+
 dota custom + tools
 +++++++++++++++++++
 

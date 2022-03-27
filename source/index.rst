@@ -13,6 +13,7 @@ Welcome to castlefight-doc's documentation!
    abilities/index
    develop/index
    deploy
+   ecs/index
 
 compiled version
 ----------------
@@ -20,6 +21,8 @@ compiled version
 https://castlefight-doc.readthedocs.io/en/latest/index.html
 
 https://dark123us.github.io/castlefight-doc/index.html
+
+file:///D:/tmp/html/html/index.html
 
 
 Indices and tables
