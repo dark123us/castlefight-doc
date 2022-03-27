@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 Welcome to castlefight-doc's documentation!
 ===========================================
 
@@ -15,15 +16,24 @@ Welcome to castlefight-doc's documentation!
    deploy
    ecs/index
 
-compiled version
-----------------
+Links to Doc
+------------
 
-https://castlefight-doc.readthedocs.io/en/latest/index.html
+* https://castlefight-doc.readthedocs.io/en/latest/index.html
+* https://dark123us.github.io/castlefight-doc/index.html
+* file:///D:/tmp/html/html/index.html
 
-https://dark123us.github.io/castlefight-doc/index.html
+Links
+-----
 
-file:///D:/tmp/html/html/index.html
-
+* https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/Javascript/API
+* https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/CSS_Properties
+* https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/Events
+* https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama
+* https://moddota.com/
+* https://moddota.com/api/#!/vscripts
+* https://moddota.com/api/#!/events
+* https://www.figma.com/file/mMKTjXtiEybZQtcDYRcO5X/Castle-Fight?node-id=0%3A1
 
 Indices and tables
 ==================
